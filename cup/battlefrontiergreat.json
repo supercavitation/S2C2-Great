@@ -2,7 +2,10 @@
     "name": "battlefrontiergreat",
     "title": "Battle Frontier (Great)",
     "include": [],
-    "exclude": [],
+    "exclude": [{
+        "filterType": "tag",
+        "values": ["mega"]
+    }],
     "tierRules": {
         "max": 2,
         "floor": 0,
